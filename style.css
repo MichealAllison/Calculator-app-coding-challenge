@@ -168,3 +168,24 @@ button:hover {
 .equal:hover {
   background-color: hsl(6, 100%, 62%);
 }
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .title h4 {
+    font-size: 1.5rem;
+  }
+
+  #screen {
+    font-size: 1.5rem;
+    height: 60px;
+  }
+
+  button {
+    height: 50px;
+    font-size: 1.5rem;
+  }
+}
