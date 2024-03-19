@@ -17,7 +17,7 @@ body {
 
 .container {
   border-radius: 5px;
-  padding: 25px 25px; /*32px 23px */
+  padding: 32px 23px; /*32px 23px */
   margin: 0;
 }
 
@@ -170,7 +170,7 @@ button:hover {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 375px) {
+@media (max-width: 700px) {
   .container {
     width: 100%;
   }
@@ -187,15 +187,5 @@ button:hover {
   button {
     height: 50px;
     font-size: 1.5rem;
-  }
-
-  .button__areas {
-    background-color: hsl(224, 36%, 15%);
-    border-radius: 7px;
-    padding: 0;
-  }
-
-  .btn {
-    gap: 10px;
   }
 }
