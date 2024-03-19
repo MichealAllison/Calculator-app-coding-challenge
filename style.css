@@ -128,8 +128,8 @@ button:hover {
 .btn {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  padding: 24px 24px;
+  gap: 10px;
+  padding: 10px 10px;
 }
 
 .button__areas {
@@ -186,5 +186,6 @@ button:hover {
   button {
     height: 50px;
     font-size: 1.5rem;
+    flex: 1;
   }
 }
