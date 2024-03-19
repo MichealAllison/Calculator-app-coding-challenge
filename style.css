@@ -11,7 +11,6 @@ body {
   justify-content: center;
   align-self: center;
   background-color: hsl(268, 75%, 9%);
-  padding: 50px;
   /* margin: 30px; */
 }
 
@@ -170,7 +169,7 @@ button:hover {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 700px) {
+@media (max-width: 375px) {
   .container {
     width: 100%;
   }
